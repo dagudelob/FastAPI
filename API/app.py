@@ -33,6 +33,6 @@ def get_superheroes():
   uvicorn app:app --reload
  
  
-    #3 Open google chrome and go to url:  http://127.0.0.1:8000/familia
+  #4 Open google chrome and go to url:  http://127.0.0.1:8000/familia
  
  '''
