@@ -15,6 +15,12 @@ def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
 
+
+@app.get("/numeros")
+def get_numeros():
+    rows = ["1","2","3","4","69"]
+    return rows
+    
 ''' 
  INSTRUCTIONS TO RUN THE FASTAPI APP:
   #1. on terminal do: # esto crea el entorno virtual: 
