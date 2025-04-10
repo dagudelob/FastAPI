@@ -10,9 +10,16 @@ def get_familia():
     rows = ["Amin", "Marce", "Miranda"]
     return rows
 
+
 @app.get("/superheroesDC")
 def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
+    return rows
+
+
+@app.get("/Cursos")
+def get_Cursos():
+    rows = ["Docker", "Python", "FastAPI", "Flask", "Django", "NodeJS", "ReactJS", "Angular"]
     return rows
 
 
