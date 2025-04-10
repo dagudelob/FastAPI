@@ -17,15 +17,18 @@ def get_superheroes():
 
 ''' 
  INSTRUCTIONS TO RUN THE FASTAPI APP:
-  # on terminal do: # esto crea el entorno virtual: 
-  $cd API
-  $pip3 install -r requirements.txt
-     
-    # 1. Install FastAPI and Uvicorn if you haven't already:
- move to the directory where the app.py file is located and run the command below in the terminal:
-
+  #1. on terminal do: # esto crea el entorno virtual: 
+  move to the directory where the app.py file is located and run the command below in the terminal:
+  
+    $ cd API
     
-    #2. Create a virtual environment and activate it: 
+  #2. Install FastAPI and Uvicorn if you haven't already / 
+      $ pip3 install -r requirements.txt
+    
+  #3. Create a virtual environment and activate it: // VsCode va a sugerir un entorno virtual, lo aceptas y lo activas
+  $ python3 -m venv env
+ 
+   
 # To run the FastAPI app, use the command below in the terminal:
   uvicorn app:app --reload
  
